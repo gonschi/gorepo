@@ -11,7 +11,13 @@ namespace _01_testing_github
         static void Main(string[] args)
         {
             Console.Write("hello world");
+            myCoolFunction();
             Console.ReadKey();
+        }
+
+        static public void myCoolFunction()
+        {
+            Console.Write("I made a cool function");
         }
     }
 }
